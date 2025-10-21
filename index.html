@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>My Personal Webpage</title>
+<style type="text/css">
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: hotpink;
+  scroll-behavior: smooth;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
+h1 {
+  font-family: Garamond, serif;
+  color: hotpink;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px gray;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px gray;
+  text-align: center;
+}
+
+.navbar a {
+  color: hotpink;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: hotpink;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px gray;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  font-family: Garamond, serif;
+  color: hotpink;
+}
+
+img, video {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+img:hover, video:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 12px hotpink;
+}
+
+button {
+  background-color: hotpink;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: deeppink;
+}
+
+.bottom {
+  text-align: center;
+  color: hotpink;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+details {
+  margin-top: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: deeppink;
+}
+</style>
+</head>
+
+<body>
+<img src="./index_files/Pink PC Wallpapers.jpg" alt="BACKGROUND" class="bg"> 
+
+<h1>My Personal Webpage</h1> 
+<div class="navbar"> 
+<a href="index.html">Home</a> 
+<a href="TLE_ICT.html">TLE-ICT</a> 
+<a href="ap page.html">Araling Panlipunan</a> 
+</div>
+
+<audio src="./index_files/SHOT.mp3" controls loop></audio>
+
+<div class="container">
+
+  <div class="box" id="about">
+    <h2>About Me</h2>
+    <p><strong>Name:</strong> Zoe Rios</p>
+    <p><strong>Age:</strong> 14</p>
+    <p><strong>Birthday:</strong> July 25, 2011</p>
+    <p><strong>Favorites:</strong> I love a lot of things, but I'd say it can break down into three categories:</p>
+    <ol>
+      <li>💬 <a href="https://en.wikipedia.org/wiki/Public_speaking" target="_blank">Public Speaking and Debating</a> — I love talking and speaking on behalf of people who do not have the privilege to speak. More importantly, I've always just enjoyed it.</li>
+      <li>🎬 <a href="https://www.imdb.com/title/tt1201607/" target="_blank">Harry Potter</a>, <a href="https://www.imdb.com/title/tt2467372/" target="_blank">Brooklyn 99</a>, and <a href="https://www.imdb.com/title/tt0898266/" target="_blank">Big Bang Theory</a> are some of my favorite shows.</li>
+      <li>🏎️ <a href="https://www.formula1.com/" target="_blank">Formula 1</a> — I love the tension, risks, and personalities of the drivers, especially Max Verstappen!</li>
+    </ol>
+
+    <button onclick="alert(&#39;Hi there! Thanks for visiting my page ❤️&#39;)">Say Hi!</button>
+
+    <details>
+      <summary>Click for Secret Fun Facts about Me!</summary>
+      <ul>
+        <li>I am really good at origami</li>
+        <li>I’m currently learning how to fence</li>
+        <li>I used to hate being in the limelight because I was a germaphobe until 2021</li>
+      </ul>
+    </details>
+
+    <img src="./index_files/PR_1.jpg" alt="Image 1">
+    <img src="./index_files/PR_2.jpg" alt="Image 2">
+    <img src="./index_files/PR_3.jpg" alt="Image 3">
+    <img src="./index_files/PR_4.jpg" alt="Image 4">
+      <video src="./index_files/PR_VID.mp4" controls=""></video>
+  </div>
+
+  <div class="box" id="friends">
+    <h2>My Circle of Friends</h2>
+    <p>I have two circles of friends, both of which are very dear to my heart.</p>
+
+    <details>
+      <summary>👥 Debater Friends</summary>
+      <p>These are the people who are basically my family — <strong>Kuya Andrei, Kevin, Ate Jeanine, Alleq, Kuya Jude,</strong> and <strong>Kath</strong>. They’re amazing to talk to because the conversations can switch from silly to deep so fast. I really appreciate them because they help me grow as a person and they’re very understanding of everything I go through.</p>
+      <p>✨ Especially Kuya AndreI and Kevin — thank you both for always being there for me.</p>
+      <img src="./index_files/FREN_1.jpg" alt="Friends 1">      
+      <img src="./index_files/LIT 25&#39;.jpg" alt="Friends 4">
+    </details>
+
+    <details>
+      <summary>🎉 Classroom Friends</summary>
+      <p>My classroom friends — <strong>Lorraine, Chiara, Romi,</strong> and <strong>Benj</strong> — are all really goofy and fun. I appreciate always having at least one person to hang out with. I’ve been friends with Lorraine since Grade 6, which is the longest friendship I’ve ever had!</p>
+      <img src="./index_files/FREN_3.jpg" alt="Friends 3">
+      <img src="./index_files/FREN_2.jpg" alt="Friends 2">
+    </details>
+      <video src="./index_files/FREN_VID.mp4" controls=""></video>
+  </div>
+
+  <div class="box" id="family">
+    <h2>My Family</h2>
+    <details open="">
+      <summary>👨‍👩‍👧‍👦 My Family</summary>
+      <p>My family is fairly big, I have 2 elder siblings, both my parents, my yaya and my 2 dogs. My parents are hard working and provide for me and my siblings. My siblings are nice to me, and we have a good relationship.</p>
+    </details>
+
+    <details>
+      <summary>🐶 My Doggo's</summary>
+      <p>I have 2 dogs, their names are Snowy, and Chogs and they are just the cutest little dogs you'll ever meet. They're friendly and sweet and love sitting in the middle of my bed at night.</p>
+    </details>
+
+    <details>
+      <summary>🍳 Yaya</summary>
+      <p>My yaya has been taking care of me since I was born, she’s taken care of my siblings as well and I really appreciate her because whenever I’m having trouble like when I can’t find something she does it for me, and yaya also always cooks for us and it’s swell.</p>
+    </details>
+
+    <img src="./index_files/FM_1.jpg" alt="Family 1">
+    <img src="./index_files/FM_2.jpg" alt="Family 2">
+    <img src="./index_files/FM_3.jpg" alt="Family 3">
+    <img src="./index_files/FM_4.jpg" alt="Family 4">
+      <video src="./index_files/FM_VID.mp4" controls=""></video>
+  </div>
+
+</div>
+
+<div class="bottom">Zoe Rios | 9-Fairness</div>
+
+
+
+</body></html>
