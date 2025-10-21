@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Araling Panlipunan</title>
+
+<style type="text/css">
+body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fefefe;
+  color: hotpink;
+}
+
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+h1 {
+  font-family: Garamond, serif;
+  color: hotpink;
+  text-align: center;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px gray;
+  width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: white;
+  width: 80%;
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px gray;
+  text-align: center;
+}
+
+.navbar a {
+  color: hotpink;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: hotpink;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 20px auto;
+}
+
+.box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 2px 2px 8px gray;
+  padding: 15px;
+  margin-bottom: 20px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.box:hover {
+  transform: scale(1.02);
+  box-shadow: 4px 4px 12px gray;
+}
+
+h2 {
+  font-family: Garamond, serif;
+  color: hotpink;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: transform 0.3s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+.content {
+  display: none;
+  margin-top: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.bottom {
+  text-align: center;
+  color: hotpink;
+  background-color: white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+ul, ol {
+  margin-left: 25px;
+}
+
+h3, h4 {
+  color: hotpink;
+}
+</style>
+</head>
+
+<body>
+
+<img src="LOCK IN CUH.jpg" alt="Background Image" class="bg">
+
+<h1>Araling Panlipunan: Maykroekonomiks</h1>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="TLE_ICT.html">TLE-ICT</a>
+  <a href="ap page.html">Araling Panlipunan</a>
+</div>
+
+<audio src="./ap page_files/HAMILTON.mp3.mp3" controls loop></audio>
+
+<div class="container">
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 1: Demand</h2>
+    <div class="content">
+      <h3>DEMAND</h3>
+      <p>Demand ay tumutukoy sa dami ng produkto at serbisyo na kaya at handang bilhin ng mga mamimili sa alternatibong presyo sa isang takdang panahon. 
+      <br>- Pinag-aaralan dito ang gawi at kilos ng mga konsyumer.
+      <br><b>Kagustuhan + Kakayahan = Demand</b></p>
+
+      <h3>BATAS NG DEMAND</h3>
+      <p>Nagsasaad na habang tumataas ang presyo, kumokonti ang bibilhing produkto ng mga mamimili; samantala, kapag bumababa ang presyo, dumadami ang mga bibilhing produkto ng mamimili, <i>ceteris paribus</i>.</p>
+
+      <h4>CETERIS PARIBUS</h4>
+      <p>Salitang Latin na ang ibig sabihin ay “all other things remain constant” o “walang ibang salik na nagbabago.” Ibig sabihin, sa konsepto ng demand, ang presyo lamang ang nakaapekto sa Qd.</p>
+
+      <h3>DEMAND FUNCTION</h3>
+      <p><b>Qd = a - bP</b></p>
+      <ul>
+        <li>Qd – Quantity Demanded (dependent variable)</li>
+        <li>P – Presyo (independent variable)</li>
+        <li>a – Dami ng produkto na nais bilhin kapag libre (y-intercept)</li>
+        <li>b – Constant na nagpapakita kung gaano kalaki ang pagbabago ng Qd sa bawat pagbabago ng presyo (slope)</li>
+      </ul>
+      <p>Ang Demand Function ay isang mathematical equation na nagpapakita ng relasyon ng Qd at P. Ang kanilang relasyon ay magkasalungat (di-tuwiran o negatibo) sapagkat ang pagtaas ng presyo ay nagdudulot ng pagbaba ng demand.</p>
+
+      <h3>DEMAND SCHEDULE AT CURVE</h3>
+      <p>Ang <b>Demand Schedule</b> ay talahanayan na nagpapakita ng demand ng mga mamimili sa bawat lebel ng presyo, habang ang <b>Demand Curve</b> ay grapikong paglalarawan nito (downward sloping).</p>
+
+      <h3>MGA SALIK NA NAKAAAPEKTO SA DEMAND</h3>
+      <ol>
+        <li><b>Panlasa / Kagustuhan</b> – Pagkahilig o pagkasawa sa produkto.</li>
+        <li><b>Kita</b> – Kapag tumaas ang kita, tumataas din ang demand (Normal Goods). Kung hindi, bumababa (Inferior Goods).</li>
+        <li><b>Populasyon</b> – Mas maraming tao, mas mataas ang demand.</li>
+        <li><b>Presyo ng Magkaugnay na Produkto</b> – <i>Substitute goods</i> (pamalit) at <i>Complementary goods</i> (sabay ginagamit).</li>
+        <li><b>Okasyon</b> – Tumataas ang demand sa panahon ng selebrasyon.</li>
+        <li><b>Ekspektasyon</b> – Kapag inaasahang tataas ang presyo, tumataas din ang demand dahil sa panic buying.</li>
+      </ol>
+
+      <h3>PAGGALAW NG DEMAND CURVE</h3>
+      <ul>
+        <li><b>Pagtaas ng Demand</b> – Paglipat ng curve mula kaliwa papuntang kanan.</li>
+        <li><b>Pagbaba ng Demand</b> – Paglipat ng curve mula kanan papuntang kaliwa.</li>
+      </ul>
+      <img src="./ap page_files/DEM1.png" alt="Demand Graph">
+      <img src="./ap page_files/DEM2.jpg" alt="Demand Graph">
+<p><a href="https://articles.outlier.org/demand-curve">Click here for citations!</a></p>
+    </div>
+  </div>
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 2: Supply</h2>
+    <div class="content">
+      <h3>SUPPLY</h3>
+      <p>Tumutukoy sa dami ng produkto at serbisyo na handang ipagbili ng mga prodyuser sa iba’t ibang presyo sa takdang panahon. Ang pagnanais at kakayahan ng supplier ang batayan ng supply, at presyo ang pangunahing salik na nakaiimpluwensya rito.</p>
+
+      <h3>BATAS NG SUPPLY</h3>
+      <p>Habang tumataas ang presyo, dumadami ang handang ipagbili ng mga prodyuser; habang bumababa, nababawasan ito.</p>
+
+      <h3>SUPPLY FUNCTION</h3>
+      <p><b>Qs = c + dP</b></p>
+      <ul>
+        <li>Qs – Quantity Supplied</li>
+        <li>P – Presyo</li>
+        <li>c – y-intercept</li>
+        <li>d – pagbabago sa Qs kada unit ng pagbabago ng presyo (slope)</li>
+      </ul>
+
+      <h3>SUPPLY CURVE AT MARKET SUPPLY</h3>
+      <p>Ang <b>Supply Curve</b> ay grapikong paglalarawan ng tuwirang relasyon ng presyo at dami ng supply — upward sloping.  
+      Ang <b>Market Supply</b> naman ay pinagsamang supply ng bawat prodyuser sa pamilihan.</p>
+
+      <h3>MGA SALIK NA NAKAAAPEKTO SA SUPPLY</h3>
+      <ol>
+        <li><b>Teknolohiya</b> – Nagpapabilis ng produksyon.</li>
+        <li><b>Dami ng Nagtitinda</b> – Mas marami, mas mataas ang supply.</li>
+        <li><b>Subsidy</b> – Tulong ng pamahalaan sa maliliit na negosyante.</li>
+        <li><b>Gastos sa Produksyon</b> – Mas mataas ang gastos, mas mababa ang supply.</li>
+        <li><b>Panahon/Klima</b> – Lalo na sa agrikultura, nakaaapekto sa supply.</li>
+        <li><b>Presyo ng Ibang Produkto</b> – Maaaring maapektuhan ang supply ng kakomplementaryong produkto.</li>
+        <li><b>Ekspektasyon</b> – Maaaring mag-hoard ang mga prodyuser kung inaasahang tataas ang presyo.</li>
+      </ol>
+
+      <h3>PAGGALAW NG SUPPLY CURVE</h3>
+      <ul>
+        <li><b>Pagtaas ng Supply</b> – Mula kaliwa papuntang kanan.</li>
+        <li><b>Pagbaba ng Supply</b> – Mula kanan papuntang kaliwa.</li>
+      </ul>
+
+      <img src="./ap page_files/SUP1.jpg" alt="Supply Graph">
+      <img src="./ap page_files/SUP2.jpg" alt="Supply Graph">
+<p><a href="https://fity.club/lists/suggestions/supply-curve/">Click here for citations!</a></p>
+    </div>
+  </div>
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 3: Price Elasticity</h2>
+    <div class="content">
+      <h3>ELASTISIDAD NG DEMAND AT SUPPLY</h3>
+      <p>Isang pamamaraan upang masukat ang pagtugon ng mga mamimili at nagtitinda sa pagbabago ng presyo.</p>
+
+      <h3>URI NG ELASTISIDAD</h3>
+      <ul>
+        <li><b>Elastik</b> – %ΔQ &gt; %ΔP (Elasticity &gt; 1)</li>
+        <li><b>Di Elastik</b> – %ΔQ &lt; %ΔP (Elasticity &lt; 1)</li>
+        <li><b>Unitary</b> – %ΔQ = %ΔP (Elasticity = 1)</li>
+        <li><b>Ganap na Elastik</b> – Horizontal line; pareho ang presyo, nagbabago ang Q.</li>
+        <li><b>Ganap na Di Elastik</b> – Vertical line; hindi nagbabago ang Q kahit magbago ang presyo.</li>
+      </ul>
+
+      <h3>ADDITIONAL INFO</h3>
+      <ul>
+        <li>Ep – Price Elasticity</li>
+        <li>Ed – Demand Elasticity</li>
+        <li>Es – Supply Elasticity</li>
+        <li>Absolute value palagi ang final answer.</li>
+      </ul>
+
+      <img src="./ap page_files/PRE1.jpg" alt="Elasticity Example">
+      <img src="./ap page_files/PRE2.jpg" alt="Elasticity Graph">
+<p><a href="https://fourweekmba.com/price-elasticity/">Click here for citations!</a></p>
+    </div>
+  </div>
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 4: Market Equilibrium</h2>
+    <div class="content">
+      <h3>EQUILIBRIUM</h3>
+      <p>Ang <b>Market Equilibrium</b> ay ang punto kung saan magkapareho ang quantity demanded at quantity supplied.</p>
+
+      <h3>PRESYONG EQUILIBRIYO</h3>
+      <p>Ang presyo kung saan nagtatagpo ang demand at supply curves — ito ang pinakamainam na presyo sa merkado.</p>
+
+      <h3>EQUILIBRIYONG DAMI</h3>
+      <p>Ang dami ng produkto na handang bilhin at ipagbili sa presyong ekwilibriyo.</p>
+
+      <img src="./ap page_files/ME1.jpg" alt="Market Equilibrium">
+      <img src="./ap page_files/ME2.jpg" alt="Market Equilibrium">
+<p><a href="https://boycewire.com/market-equilibrium-definition/">Click here for citations!</a></p>
+    </div>
+  </div>
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 5: Iba’t-ibang Estruktura ng Pamilihan</h2>
+    <div class="content">
+<h3>Mga Uri ng Estruktura ng Pamilihan</h3>
+
+<p>Ang <strong>estruktura ng pamilihan</strong> ay tumutukoy sa paraan kung paano nagtatagisan ang mga prodyuser at mamimili sa merkado.  
+Ito ang nagtatakda kung paano nabubuo ang presyo, gaano karaming produkto ang nalilikha, at gaano kalaki ang kontrol ng bawat negosyo sa kanilang kalakal.  
+May apat na pangunahing uri ng estruktura ng pamilihan:</p>
+
+<h3>1. Ganap na Kompetisyon (Perfect Competition)</h3>
+Sa ganitong uri ng pamilihan, napakaraming nagtitinda at mamimili.  
+Magkakapareho ang mga produkto, kaya’t walang prodyuser ang maaaring magtaas o magbaba ng presyo sa sarili nilang kagustuhan.  
+Ang presyo ay itinatakda ng pamilihan mismo batay sa demand at supply.  
+Halimbawa: palengke ng gulay, bigas, o prutas.</p>
+
+<h3>2. Monopolyo (Monopoly)</h3>
+Ito ay pamilihang may iisang prodyuser o kompanyang nagbebenta ng isang uri ng produkto na walang kapalit o katulad.  
+Dahil walang kakompetensya, siya lamang ang may kontrol sa presyo at dami ng produkto.  
+Halimbawa: mga pampublikong serbisyo tulad ng kuryente at tubig.</p>
+
+<h3>3. Monopolistikong Kompetisyon (Monopolistic Competition)</h3>
+Mayroon pa ring maraming nagtitinda, ngunit bahagyang nagkakaiba ang mga produkto.  
+Dahil dito, nagkakaroon ng kakayahan ang mga negosyante na magtakda ng sariling presyo batay sa kalidad, tatak, o serbisyo.  
+Halimbawa: mga tindahan ng damit, sapatos, o fast food chains.</p>
+
+<h3>4. Oligopolyo (Oligopoly)</h3>
+Sa ganitong pamilihan, kakaunti lamang ang malalaking kompanyang nagkokontrol sa produksyon at presyo.  
+Madalas ay magkapareho ang uri ng produkto at mahirap pasukin ng maliliit na negosyo dahil sa laki ng puhunan na kailangan.  
+Halimbawa: industriya ng langis, telecommunication, at airline companies.</p>
+
+<p>Sa kabuuan, ang bawat estruktura ng pamilihan ay may kanya-kanyang kalakaran, paraan ng pagtukoy sa presyo, at antas ng kompetisyon.  
+Ang pag-unawa sa mga ito ay nakatutulong upang maunawaan kung paano gumagalaw ang ekonomiya at kung paano naaapektuhan ang mga mamimili at prodyuser.</p>
+
+      <img src="./ap page_files/EP1.jpg" alt="Market Structure 1">
+      <img src="./ap page_files/EP2.jpg" alt="Market Structure 2">
+<p><a href="https://prezi.com/zewze6efdy9o/estruktura-ng-pamilihan/">Click here for citations!</a></p>
+    </div>
+  </div>
+
+  <div class="box" onclick="toggleContent(this)">
+    <h2>Lesson 6: Bahaging Ginagampanan ng Pamahalaan</h2>
+    <div class="content">
+      <h3>PRICE CONTROL</h3>
+      <p>Isinasagawa ng pamahalaan upang protektahan ang mga mamimili laban sa mapagsamantalang negosyante.</p>
+
+      <h4>PRICE CONTROL ACT (RA 7581)</h4>
+      <p>Ang National Price Coordinating Council (sa ilalim ng DTI) ay nabuo sa tulong ng batas na ito.</p>
+
+      <h3>PRICE CEILING</h3>
+      <p>Pinakamataas na presyong itinakda ng pamahalaan sa pagbili ng produkto.  
+      Layunin: Protektahan ang mga mamimili.  
+      Katangian: Mas mababa sa presyong ekwilibriyo.</p>
+
+      <h3>PRICE FLOOR</h3>
+      <p>Pinakamababang presyo na maaaring ipagbili ng produkto.  
+      Layunin: Protektahan ang maliliit na magsasaka, mangingisda, at negosyante.  
+      Katangian: Mas mataas sa presyong ekwilibriyo.</p>
+
+      <img src="./ap page_files/PF1.jpg" alt="Price Floor">
+      <img src="./ap page_files/PF2.jpg" alt="Price Ceiling">
+<p><a href="https://articles.outlier.org/price-floors">Click here for citations!</a></p>
+    </div>
+  </div>
+</div>
+
+<div class="bottom">Zoe Rios | 9-Fairness</div>
+
+<script>
+function toggleContent(element) {
+  var content = element.querySelector(".content");
+  content.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
+
